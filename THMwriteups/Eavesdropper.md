@@ -26,8 +26,8 @@ echo $@ >> b.out
 /usr/bin/sudo id > /home/frank/id.out
 ```
 
-Add HOME to PATH (via .profile & .bashrc) and wait for wrapper execution.
+Add HOME to PATH (via .profile & .bashrc) and wait for the wrapper execution.
 
-Check the /root with sudo wrapper.
+Check the /root with the sudo wrapper.
 
 Capture the flag :)

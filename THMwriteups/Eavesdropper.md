@@ -26,7 +26,7 @@ echo $@ >> b.out
 /usr/bin/sudo id > /home/frank/id.out
 ```
 
-Add HOME to PATH (via .profile & .bashrc) and wait for execution.
+Add HOME to PATH (via .profile & .bashrc) and wait for wrapper execution.
 
 Check the /root with sudo wrapper.
 

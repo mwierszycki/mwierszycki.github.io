@@ -10,7 +10,7 @@ User frank is a member of sudo group but password is required to run sudo.
 
 The room title is Eavesdropper so start to sniff the network activity with:
 
-`$ while true; do sleep 0.01; netstat -naplet; done`
+`$ watch -n 0.01 netstat -naplet`
 
 There is a connection from 172.xx.xx.xx to port 22 periodically. Use ps to capture what is happen via ssh from 172.xx.xx.xx:
 

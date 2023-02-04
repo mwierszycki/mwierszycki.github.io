@@ -19,7 +19,7 @@ There is a connection from 172.xx.xx.xx to port 22 periodically. Use ps to captu
 The sudo is run via ssh - it looks like a password is given at 172.xx.xx.xx when the command is executed. Create sudo wrapper in HOME: 
 
 ```
-$ cat sudo
+$ cat $HOME/sudo
 
 #!/usr/bin/bash
 echo $@ >> b.out

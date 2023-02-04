@@ -16,7 +16,7 @@ There is a connection from 172.xx.xx.xx to port 22 periodically. Use ps to captu
 
 `$ while true; do sleep 0.01; ps auxe | grep SSH_CLIENT=172.xx.xx.xx | grep -v grep > process.out ; done`
 
-The sudo is called via ssh - it looks like a password is given at 172.xx.xx.xx when the command is executed. Create sudo wrapper in HOME: 
+The sudo is run via ssh - it looks like a password is given at 172.xx.xx.xx when the command is executed. Create sudo wrapper in HOME: 
 
 ```
 $ cat sudo

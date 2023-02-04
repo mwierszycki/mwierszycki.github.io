@@ -8,7 +8,7 @@ User frank is a member of sudo group but password is required to run sudo.
 
 `$ sudo -l`
 
-The room title is Eavesdropper so start to sniff the network traffic with:
+The room title is Eavesdropper so start to sniff the network acticity with:
 
 `$ while true; do sleep 0.01; netstat -naplet; done`
 

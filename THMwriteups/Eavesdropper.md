@@ -1,6 +1,6 @@
 # TryHackMy Eavesdropper room:
 
-https://tryhackme.com/room/eavesdropper
+[https://tryhackme.com/room/eavesdropper](https://tryhackme.com/room/eavesdropper)
 
 User frank is a member of sudo group but password is required to run sudo.
 
